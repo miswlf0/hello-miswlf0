@@ -2,6 +2,8 @@
 
 /* Init'ed by Lifu.Wang */
 
+#define MAKEFILE_SUPPORT 1
+
 int is_xmas(int month, int day) {
 
 	printf("is_xmas: Checking %d/%d...\n", month, day);
@@ -13,6 +15,7 @@ int is_xmas(int month, int day) {
 	}
 	return 0;
 }
+
 int main(int argc, char **argv) {
 
 	printf("main: started\n");
