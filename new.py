@@ -3,8 +3,11 @@ import time
 
 sw = 1
 
+def say_hello(val):
+    print("Hi, say hello world from python, val is", (val))
+
 def say_hi(val):
-    print("Hi, this is hello world python, val is", (val))
+    print("Hi, say hi from python, val is", (val))
     return 0
 
 def main():
