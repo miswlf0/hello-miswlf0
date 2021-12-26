@@ -1,5 +1,8 @@
+#!/usr/bin/python3
 import os
 import time
+from datetime import date
+from datetime import datetime
 
 sw = 1
 
@@ -13,6 +16,14 @@ def say_hi(val):
 
 def main():
     global sw
+
+    today = date.today()
+    print('today is ', today)
+
+    now = datetime.now()
+    curr_time = now.strftime('%H:%M:%S')
+    print('curr time = ', curr_time)
+
     if sw <= 0:
         say_hi('zero or nagative')
     else:
