@@ -13,7 +13,6 @@ adder.o: adder.c
 	gcc -c $(CFLAGS) -o adder.o adder.c
 multipler.o: multipler.c
 	gcc -c $(CFLAGS) -o multipler.o multipler.c
-
 clean:
 	rm -rf hello.o hello
 	rm -rf adder.o adder
