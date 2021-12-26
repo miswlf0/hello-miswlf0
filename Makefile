@@ -1,7 +1,7 @@
 CC=gcc
 CFLAGS=-I. -g
 
-.PHONY: all
+.PHONY: all clean
 all: hello.o adder.o multipler.o
 	gcc hello.o -o hello 
 	gcc adder.o -o adder
