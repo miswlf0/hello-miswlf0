@@ -1,6 +1,10 @@
 CC=gcc
 CFLAGS=-I. -g
 
+
+adder: adder.o
+	gcc adder.o -o adder
+
 hello: hello.o
 	gcc hello.o -o hello 
 
