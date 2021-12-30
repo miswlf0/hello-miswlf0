@@ -11,6 +11,6 @@ hello: hello.o
 hello.o: hello.c
 	gcc -c $(CFLAGS) -o hello.o hello.c
 clean:
-	rm -rf hello.o hello
+	rm -rf hello.o hello adder.o add
 
 
